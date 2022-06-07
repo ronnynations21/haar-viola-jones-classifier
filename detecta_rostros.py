@@ -46,3 +46,4 @@ for (x, y, w, h) in rostros:
 
 cv2.imshow("Rostros Encontrados", imagen)
 cv2.waitKey(0) # El bucle for continua mostrando los rostros detectados en la imagen hasta que se oprima cualquier tecla y se termina el programa.   
+destroyAllWindows()
